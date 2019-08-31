@@ -20,7 +20,7 @@ const MenuBar = () => (
         </IconButton>*/}
         <Button href="#speakers" color="inherit" className="MenuBar__Speakers">Speakers</Button>
         <Button href="#schedule" color="inherit" className="MenuBar__Schedule">Schedule</Button>
-        <Button href="sponsors" color="inherit" className="MenuBar__Sponsors">Sponsors</Button>
+        <Button href="#sponsors" color="inherit" className="MenuBar__Sponsors">Sponsors</Button>
         <Button href="#contact-us" color="inherit" className="MenuBar__ContactUs">Contact Us</Button>
         <Button href="#register" color="inherit" className="MenuBar__Register">Register</Button>
       </Toolbar>

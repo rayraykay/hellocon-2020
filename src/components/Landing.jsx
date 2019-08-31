@@ -55,6 +55,22 @@ const Landing = () => (
             Innis Town Hall
           </Typography>
         </Grid>
+        <Grid
+          className="Landing__Location"
+          item
+          container
+          direction="row"
+          justify="flex-start"
+          alignItems="center"
+        >
+          <img src={require("../images/Date.svg")} alt="location"/>
+          <Typography display="inline">
+            Saturday, November 16th, 2019
+          </Typography>
+        </Grid>
+        <Grid item>
+          <Button href="#register" color="inherit" className="MenuBar__Register">Register Now!</Button>
+        </Grid>
       </Grid>
     </Grid>
   </Container>
