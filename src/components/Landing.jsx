@@ -7,7 +7,7 @@ import "./Landing.scss";
 import {Typography} from "@material-ui/core";
 
 const Landing = () => (
-  <Container className="Landing">
+  <Container className="Landing" maxWidth={false}>
     <Grid
       container
       direction="row"
