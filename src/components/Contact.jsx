@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import Typography from "@material-ui/core/Typography";
+import Typography from '@material-ui/core/Typography';
 
-import "./Contact.scss";
+import './Contact.scss';
 
 const Contact = () => (
   <Container className="Contact" maxWidth={false}>

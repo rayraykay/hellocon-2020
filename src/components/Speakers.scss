@@ -1,0 +1,10 @@
+.Speakers {
+  padding: 0;
+}
+
+// Terrible, terrible way of doing this. You should NEVER
+// target components from an external library with their class names,
+// but idk how else to nicely do this :(
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
