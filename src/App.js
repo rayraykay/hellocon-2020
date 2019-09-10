@@ -5,6 +5,7 @@ import Landing from './components/Landing';
 import Contact from './components/Contact';
 import About from './components/About';
 import Speakers from './components/Speakers';
+import Schedule from './components/Schedule';
 
 import './App.scss';
 
@@ -15,6 +16,7 @@ function App() {
       <Landing />
       <About />
       <Speakers />
+      <Schedule />
       <Contact />
     </>
   );

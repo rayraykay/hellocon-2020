@@ -24,29 +24,29 @@ const settings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToShow: 2,
+  slidesToScroll: 2,
   nextArrow: <></>,
   prevArrow: <></>,
 };
+
+const testItems = [1, 2, 3, 4];
 
 const Speakers = () => {
   const slider = useRef(null);
   const goPrevSlide = useCallback(() => slider.current.slickPrev(), []);
   const goNextSlide = useCallback(() => slider.current.slickNext(), []);
 
-  return (<Container className="Speakers">
+  return (
+  <Container className="Speakers">
     <Slider ref={slider} {...settings}>
-      <Container>
-        <Typography>
-          1
-        </Typography>
-      </Container>
-      <Container>
-        <Typography>
-          2
-        </Typography>
-      </Container>
+      {testItems.map((i, j) => (
+        <Container className="Speakers__Container" key={j}>
+          <Typography className={'Speakers__Speaker' + (i % 2 ? '' : 'bad')}>
+            {i}
+          </Typography>
+        </Container>
+      ))}
     </Slider>
     <Button onClick={goPrevSlide}>
       PREV

@@ -1,10 +1,22 @@
+@import "../constants/colors";
+
 .Speakers {
   padding: 0;
+  background-color: $hellocon-grey;
+}
+
+.Speakers__Container {
+  padding: 0;
+}
+
+.Speakers__Speaker {
+  width: 100%;
+  background-color: red;
 }
 
 // Terrible, terrible way of doing this. You should NEVER
 // target components from an external library with their class names,
 // but idk how else to nicely do this :(
-.slick-prev:before, .slick-next:before {
-  color: black;
-}
+//.slick-prev:before, .slick-next:before {
+//  color: black;
+//}

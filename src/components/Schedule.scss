@@ -1,0 +1,29 @@
+@import "../constants/colors";
+
+.Schedule__Schedule {
+  background-color: $hellocon-grey;
+  * {
+    font-size: 18px;
+  }
+}
+
+.Schedule__Heading {
+  background-color: $hellocon-blue;
+  color: white;
+
+  * {
+    font-weight: bold;
+  }
+}
+
+.Schedule__Time {
+  text-align: center;
+}
+
+.Schedule__Content * {
+  font-family: Nunito;
+}
+
+.Schedule__TimeHeading {
+  padding-left: 4vw;
+}
