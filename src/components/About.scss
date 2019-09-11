@@ -1,4 +1,33 @@
+@import "../constants/sizes";
+
 .About {
-  padding-left: 0;
-  padding-right: 0;
+  padding: 4vw 0 4vw 0;
+}
+
+.About__Title {
+  padding-bottom: 2vw;
+
+  * {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: $screen-small) {
+    * {
+      font-size: 24px;
+    }
+  }
+}
+
+.About__Text {
+  * {
+    font-family: Nunito, Montserrat, sans-serif;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: $screen-small) {
+    * {
+      font-size: 16px;
+    }
+  }
 }

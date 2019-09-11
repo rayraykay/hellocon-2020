@@ -1,9 +1,34 @@
 @import "../constants/colors";
+@import "../constants/sizes";
+
+$border-color: #D0D0D0;
+
+.Schedule__Title {
+  padding-top: 4vw;
+  * {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: $screen-small) {
+    * {
+      font-size: 24px;
+    }
+  }
+}
 
 .Schedule__Schedule {
+  margin-top: 2vw;
+  margin-bottom: 4vw;
   background-color: $hellocon-grey;
   * {
     font-size: 18px;
+  }
+
+  @media only screen and (max-width: $screen-small) {
+    * {
+      font-size: 16px;
+    }
   }
 }
 
@@ -20,10 +45,30 @@
   text-align: center;
 }
 
-.Schedule__Content * {
-  font-family: Nunito;
+.Schedule__Content {
+  &--border {
+    border-bottom: 1px solid $border-color;
+  }
+
+  * {
+    font-family: Nunito, Montserrat, sans-serif;
+  }
+}
+
+.Schedule__EventDetails {
+  padding: 0;
+}
+
+.Schedule__Location {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Schedule__Speaker {
+  padding-left: 7px;
+  font-size: 14px;
 }
 
 .Schedule__TimeHeading {
-  padding-left: 4vw;
+  padding-left: 2vw;
 }

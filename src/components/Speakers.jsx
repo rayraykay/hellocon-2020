@@ -10,16 +10,6 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import './Speakers.scss';
 
-const Arrow = ({ className, style, onClick }) => (
-  <Container
-    className={className}
-    style={{...style, display: "block"}}
-    onClick={onClick}
-  >
-    Hello
-  </Container>
-);
-
 const settings = {
   dots: false,
   infinite: true,
@@ -38,7 +28,7 @@ const Speakers = () => {
   const goNextSlide = useCallback(() => slider.current.slickNext(), []);
 
   return (
-  <Container className="Speakers">
+  <Container className="Speakers" maxWidth={false}>
     <Slider ref={slider} {...settings}>
       {testItems.map((i, j) => (
         <Container className="Speakers__Container" key={j}>

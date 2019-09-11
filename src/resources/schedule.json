@@ -1,0 +1,99 @@
+[
+  {
+    "event": "Registration",
+    "time": "9:00am",
+    "details": [
+      {
+        "location": "MY 1st Floor Lobby"
+      }
+    ]
+  },
+  {
+    "event": "First presentations",
+    "time": "10:00am",
+    "details": [
+      {
+        "location": "MY 490",
+        "speaker": "Linda Uwu"
+      },
+      {
+        "location": "MY 420",
+        "speaker": "Big Daddy Quin"
+      }
+    ]
+  },
+  {
+    "event": "Second presentations",
+    "time": "10:45am",
+    "details": [
+      {
+        "location": "MY 490",
+        "speaker": "Nein Cat (Nein...?)"
+      },
+      {
+        "location": "MY 420",
+        "speaker": "SWOGMOOSTUR42069"
+      }
+    ]
+  },
+  {
+    "event": "Lunch",
+    "time": "11:30am",
+    "details": [
+      {
+        "location": "MY 1st Floor Lobby"
+      }
+    ]
+  },
+  {
+    "event": "Third presentations",
+    "time": "12:30pm",
+    "details": [
+      {
+        "location": "MY 490",
+        "speaker": "Linda Uwu"
+      },
+      {
+        "location": "MY 420",
+        "speaker": "Big Daddy Quin"
+      }
+    ]
+  },
+  {
+    "event": "Fourth presentations",
+    "time": "1:45pm",
+    "details": [
+      {
+        "location": "MY 490",
+        "speaker": "Nein Cat (Nein...?)"
+      },
+      {
+        "location": "MY 420",
+        "speaker": "SWOGMOOSTUR42069"
+      }
+    ]
+  },
+  {
+    "event": "Mixer with industry professionals",
+    "time": "3:10pm",
+    "details": [
+      {
+        "location": "MY 150 Lau Auditorium"
+      }
+    ]
+  },
+  {
+    "event": "Resume editing and headshot photoshoot event",
+    "time": "3:30pm",
+    "details": [
+      {
+        "location": "MY 2nd Floor Lobby"
+      }
+    ]
+  },
+  {
+    "event": "Mixer comes to an end",
+    "time": "5:00pm",
+    "details": []
+  }
+]
