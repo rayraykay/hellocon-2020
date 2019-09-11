@@ -1,7 +1,36 @@
+@import "./constants/sizes.scss";
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.Text__Title {
+  font-size: 36px;
+  font-weight: bold;
+
+  @media only screen and (max-width: $screen-small) {
+    font-size: 24px;
+  }
+}
+
+.Text__Paragraph {
+  font-family: Nunito, Montserrat, sans-serif;
+  font-size: 18px;
+
+  @media only screen and (max-width: $screen-small) {
+    font-size: 16px;
+  }
+}
+
+.Text__ParagraphSmall {
+  font-family: Nunito, Montserrat, sans-serif;
+  font-size: 16px;
+
+  @media only screen and (max-width: $screen-small) {
+    font-size: 14px;
+  }
 }
 
 code {

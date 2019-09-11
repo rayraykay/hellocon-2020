@@ -32,16 +32,16 @@ const Schedule = () => {
         <Typography>
           {e.event}
         </Typography>
-        {e.details.map((d, j) => (
-          <Container className="Schedule__EventDetails" key={j}>
-            <Typography className="Schedule__Location" component="span">
-              {d.location}
-            </Typography>
-            <Typography className="Schedule__Speaker" component="span">
-              {d.speaker}
-            </Typography>
-          </Container>
-        ))}
+          {e.details.map((d, j) => (
+            <Container className="Schedule__EventDetails" key={j}>
+              <Typography className="Schedule__Location" component="span">
+                {d.location}
+              </Typography>
+              <Typography className="Schedule__Speaker" component="span">
+                {d.speaker}
+              </Typography>
+            </Container>
+          ))}
       </Grid>
     </Grid>
   ));

@@ -1,14 +1,31 @@
 @import "../constants/colors";
+@import "../constants/sizes";
 
 .Contact {
   background-color: $hellocon-blue;
   color: white;
+  padding: 4vw 1vw 4vw 1vw;
 }
 
 .Contact__Title {
   text-align: center;
+  padding-bottom: 2vw;
 }
 
 .Contact__Copyright {
   text-align: center;
+}
+
+.Contact__SocialMedia {
+  padding: 2vw 0 2vw 0;
+
+  & img {
+    height: 45px;
+  }
+
+  @media only screen and (max-width: $screen-300) {
+    & img {
+      height: 35px;
+    }
+  }
 }
