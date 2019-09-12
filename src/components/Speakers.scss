@@ -1,18 +1,75 @@
 @import "../constants/colors";
+@import "../constants/sizes";
+
+$speakers-blue: #174763;
 
 .Speakers {
-  padding: 0;
+  padding: 4vw 0 4vw 0;
   width: 100%;
   background-color: $hellocon-grey;
 }
 
-.Speakers__Container {
+.Speakers__Title {
+  padding-bottom: 2vw;
+}
+
+.Speakers__Slider {
   padding: 0;
+  min-width: 100%;
+}
+
+.Speakers__Container {
+  padding: 1px;
+  min-height: 100%;
 }
 
 .Speakers__Speaker {
+  // This works but is the most terrible solution for the uneven height value
+  //min-height: 400px;
+
+  width: 60%;
+  margin-left: 20%;
+  @media only screen and (max-width: $screen-1200) {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  &--bad {
+    background-color: red;
+  }
+}
+
+.Speakers__Image {
   width: 100%;
-  background-color: red;
+}
+
+.Speakers__Info {
+  padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+}
+
+.Speakers__Text {
+  &--SpeakerTitle {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: $speakers-blue;
+  }
+
+  &--SpeakerName {
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
+  &--SpeakerPosition {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  &--SpeakerDescription {
+    padding-top: 1vw;
+    font-size: 17px;
+    font-family: Nunito, Montserrat, sans-serif;
+  }
 }
 
 // Terrible, terrible way of doing this. You should NEVER
