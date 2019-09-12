@@ -28,14 +28,18 @@ $speakers-blue: #174763;
   //min-height: 400px;
 
   width: 60%;
-  margin-left: 20%;
-  @media only screen and (max-width: $screen-1200) {
-    width: 50%;
-    margin-left: 25%;
+
+  &--first {
+    margin-left: 27%;
   }
 
-  &--bad {
-    background-color: red;
+  &--second {
+    margin-left: 13%;
+  }
+
+  &--small {
+    width: 70%;
+    margin-left: 15%;
   }
 }
 
@@ -44,7 +48,11 @@ $speakers-blue: #174763;
 }
 
 .Speakers__Info {
-  padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+  padding: 1.5vw;
+
+  @media only screen and (max-width: $screen-small) {
+    padding: 10px;
+  }
 }
 
 .Speakers__Text {
@@ -70,6 +78,10 @@ $speakers-blue: #174763;
     font-size: 17px;
     font-family: Nunito, Montserrat, sans-serif;
   }
+}
+
+.Speakers__Buttons {
+  padding-top: 20px;
 }
 
 // Terrible, terrible way of doing this. You should NEVER
