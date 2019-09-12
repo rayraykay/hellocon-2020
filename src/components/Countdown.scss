@@ -1,0 +1,35 @@
+@import "../constants/colors";
+@import "../constants/sizes";
+
+.Countdown {
+  padding: 4vw 0 4vw 0;
+}
+
+.Countdown__Title {
+  padding-bottom: 1vw;
+}
+
+.Countdown__Counter {
+  background-color: $hellocon-blue;
+
+  & .Countdown__Number {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+
+    @media only screen and (max-width: $screen-small) {
+      font-size: 28px;
+    }
+  }
+}
+
+.Countdown__Label {
+  text-align: center;
+  font-family: Nunito, Montserrat, sans-serif;
+  font-size: 28px;
+
+  @media only screen and (max-width: $screen-small) {
+    font-size: 18px;
+  }
+}
