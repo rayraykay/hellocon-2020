@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 
 import calculateTimeRemaining from '../functions/calculateTimeRemaining';
 import {utcYear, utcMonth, utcHour, utcDay} from '../resources/helloConDate';
-import useInterval from '../functions/useTimeout';
+import useTimeout from '../functions/useTimeout';
 import './Countdown.scss';
 
 const Countdown = () => {
@@ -15,7 +15,7 @@ const Countdown = () => {
 
   const changeDate = useCallback(() => setDate(Date.now()), []);
 
-  useInterval(changeDate, 1000);
+  useTimeout(changeDate, 1000);
 
   return (
     <Container className="Countdown" maxWidth={false}>
