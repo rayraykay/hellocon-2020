@@ -4,15 +4,52 @@
   padding: 0;
 }
 
+.Landing__IEEE {
+  padding-bottom: 20px;
+}
+
 .Landing__People {
   & img {
     max-width: 100%;
-    transform: rotate(180deg);
   }
 }
 
-.Landing__Location {
-  & img {
+.Landing__Details {
+  .Landing__Icon {
     max-height: 25px;
+    padding: 5px 10px 5px 0;
+  }
+}
+
+.Landing__Register {
+  padding-top: 20px;
+
+  .Landing__Button {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 50px 10px 50px;
+  }
+}
+
+.Landing__Text {
+  &--Title {
+    font-size: 78px;
+  }
+
+  &--IEEE {
+    font-family: Nunito, Montserrat, sans-serif;
+    font-size: 28px;
+  }
+
+  &--Details {
+    display: inline;
+    font-family: Nunito, Montserrat, sans-serif;
+    font-size: 24px;
+  }
+
+  &--Button {
+    font-size: 20px;
+    font-weight: bold;
   }
 }
