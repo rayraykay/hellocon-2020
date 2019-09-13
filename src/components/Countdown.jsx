@@ -51,7 +51,7 @@ const Countdown = () => {
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              {minutes < 0 ? 0 : hours}
+              {minutes < 0 ? 0 : minutes}
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
