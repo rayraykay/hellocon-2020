@@ -41,22 +41,22 @@ const Countdown = () => {
         >
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              {days}
+              {days < 0 ? 0 : days}
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              {hours}
+              {hours < 0 ? 0 : hours}
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              {minutes}
+              {minutes < 0 ? 0 : hours}
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              {seconds}
+              {seconds < 0 ? 0 : seconds}
             </Typography>
           </Grid>
         </Grid>
