@@ -1,11 +1,22 @@
-import React from 'react';
+import React, {useState, useCallback} from 'react';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
+import calculateTimeRemaining from '../functions/calculateTimeRemaining';
+import {utcYear, utcMonth, utcHour, utcDay} from '../resources/helloConDate';
+import useInterval from '../functions/useTimeout';
 import './Countdown.scss';
 
 const Countdown = () => {
+  const [_, setDate] = useState(Date.now());
+  const targetDate = Date.UTC(utcYear, utcMonth, utcDay, utcHour);
+  const {days, hours, minutes, seconds} = calculateTimeRemaining(Date.now(), targetDate);
+
+  const changeDate = useCallback(() => setDate(Date.now()), []);
+
+  useInterval(changeDate, 1000);
+
   return (
     <Container className="Countdown" maxWidth={false}>
       <Grid
@@ -30,22 +41,22 @@ const Countdown = () => {
         >
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              12
+              {days}
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              06
+              {hours}
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              23
+              {minutes}
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Number">
-              59
+              {seconds}
             </Typography>
           </Grid>
         </Grid>
@@ -60,17 +71,17 @@ const Countdown = () => {
         >
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Label">
-              Weeks
-            </Typography>
-          </Grid>
-          <Grid item md={2} xs={3}>
-            <Typography className="Countdown__Label">
               Days
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
             <Typography className="Countdown__Label">
               Hours
+            </Typography>
+          </Grid>
+          <Grid item md={2} xs={3}>
+            <Typography className="Countdown__Label">
+              Minutes
             </Typography>
           </Grid>
           <Grid item md={2} xs={3}>
