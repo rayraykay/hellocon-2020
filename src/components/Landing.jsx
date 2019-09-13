@@ -9,17 +9,84 @@ import './Landing.scss';
 
 const Landing = () => (
   <Container className="Landing" maxWidth={false}>
-    <Hidden smDown>
+    <Hidden smUp>
+      <Grid
+        container
+        direction="column"
+        justify="center"
+        alignItems="stretch"
+      >
+        <Grid
+          className="Landing__Info"
+          item
+          container
+          direction="column"
+          justify="center"
+          alignItems="center"
+        >
+          <Grid item>
+            <Typography className="Landing__Text--Title">
+              Hello, Con!
+            </Typography>
+          </Grid>
+          <Grid item className="Landing__IEEE">
+            <Typography className="Landing__Text--IEEE">
+              Hosted by IEEE UofT Student Branch
+            </Typography>
+          </Grid>
+          <Grid
+            item
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            className="Landing__Details"
+          >
+            <img src={require("../images/Location.svg")} alt="location" className="Landing__Icon"/>
+            <Typography className="Landing__Text--Details">
+              Innis Town Hall
+            </Typography>
+          </Grid>
+          <Grid
+            item
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            className="Landing__Details"
+          >
+            <img src={require("../images/Date.svg")} alt="location" className="Landing__Icon"/>
+            <Typography className="Landing__Text--Details">
+              Saturday, November 16th, 2019
+            </Typography>
+          </Grid>
+          <Grid item className="Landing__Register">
+            <Button href="#register" color="inherit" className="Landing__Button">
+              <Typography className="Landing__Text--Button">
+                Register Now!
+              </Typography>
+            </Button>
+          </Grid>
+        </Grid>
+        <Grid
+          className="Landing__People"
+          item
+        >
+          <img src={require("../images/Ppl.png")} alt="landing speakers"/>
+        </Grid>
+      </Grid>
+    </Hidden>
+    <Hidden xsDown>
       <Grid
         container
         direction="row"
-        justify="center"
+        justify="flex-end"
         alignItems="stretch"
       >
         <Grid
           className="Landing__People"
           item
-          xs={12}
+          xs={6}
           sm={6}
         >
           <img src={require("../images/Ppl.png")} alt="landing speakers"/>
@@ -31,8 +98,7 @@ const Landing = () => (
           direction="column"
           justify="center"
           alignItems="stretch"
-          xs={12}
-          sm={6}
+          xs={6}
         >
           <Grid item>
             <Typography className="Landing__Text--Title">

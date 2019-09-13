@@ -50,7 +50,7 @@ $speakers-blue: #174763;
 .Speakers__Info {
   padding: 1.5vw;
 
-  @media only screen and (max-width: $screen-small) {
+  @media only screen and (max-width: $screen-600) {
     padding: 10px;
   }
 }

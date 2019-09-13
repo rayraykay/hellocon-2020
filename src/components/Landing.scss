@@ -1,3 +1,5 @@
+@import "../constants/sizes";
+
 .Landing {
   background: linear-gradient(262.72deg, #539CC9 22.55%, #2C80B3 47.86%, #0073B6 95.84%);
   color: white;
@@ -35,17 +37,41 @@
 .Landing__Text {
   &--Title {
     font-size: 78px;
+
+    @media only screen and (max-width: $screen-900) {
+      font-size: 48px;
+    }
+
+    @media only screen and (max-width: $screen-600) {
+      font-size: 36px;
+    }
   }
 
   &--IEEE {
     font-family: Nunito, Montserrat, sans-serif;
     font-size: 28px;
+
+    @media only screen and (max-width: $screen-900) {
+      font-size: 28px;
+    }
+
+    @media only screen and (max-width: $screen-600) {
+      font-size: 18px;
+    }
   }
 
   &--Details {
     display: inline;
     font-family: Nunito, Montserrat, sans-serif;
     font-size: 24px;
+
+    @media only screen and (max-width: $screen-900) {
+      font-size: 20px;
+    }
+
+    @media only screen and (max-width: $screen-600) {
+      font-size: 16px;
+    }
   }
 
   &--Button {

@@ -18,7 +18,7 @@
     font-weight: bold;
     font-size: 48px;
 
-    @media only screen and (max-width: $screen-small) {
+    @media only screen and (max-width: $screen-600) {
       font-size: 28px;
     }
   }
@@ -29,7 +29,7 @@
   font-family: Nunito, Montserrat, sans-serif;
   font-size: 28px;
 
-  @media only screen and (max-width: $screen-small) {
+  @media only screen and (max-width: $screen-600) {
     font-size: 18px;
   }
 }

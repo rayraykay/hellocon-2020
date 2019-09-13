@@ -11,7 +11,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 
-  @media only screen and (max-width: $screen-small) {
+  @media only screen and (max-width: $screen-600) {
     font-size: 24px;
   }
 }
@@ -20,7 +20,7 @@ body {
   font-family: Nunito, Montserrat, sans-serif;
   font-size: 18px;
 
-  @media only screen and (max-width: $screen-small) {
+  @media only screen and (max-width: $screen-600) {
     font-size: 16px;
   }
 }
@@ -29,7 +29,7 @@ body {
   font-family: Nunito, Montserrat, sans-serif;
   font-size: 16px;
 
-  @media only screen and (max-width: $screen-small) {
+  @media only screen and (max-width: $screen-600) {
     font-size: 14px;
   }
 }
