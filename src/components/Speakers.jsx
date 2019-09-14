@@ -45,7 +45,7 @@ const Speakers = () => {
   const goNextSmallSlide = useCallback(() => smallSlider.current.slickNext(), []);
 
   return (
-  <Container className="Speakers" maxWidth={false}>
+  <Container className="Speakers" maxWidth={false} id="speakers">
     <Grid
       container
       direction="column"

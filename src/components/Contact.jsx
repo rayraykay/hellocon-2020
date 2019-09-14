@@ -36,7 +36,7 @@ const InstagramIcon = () => (
 );
 
 const Contact = () => (
-  <Container className="Contact" maxWidth={false}>
+  <Container className="Contact" maxWidth={false} id="contact-us">
     <Grid
       container
       direction="column"

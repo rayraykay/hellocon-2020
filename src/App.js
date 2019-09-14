@@ -13,7 +13,7 @@ import './App.scss';
 function App() {
   return (
     <>
-      {/*<MenuBar />*/}
+      <MenuBar />
       <Landing />
       <About />
       <Countdown />

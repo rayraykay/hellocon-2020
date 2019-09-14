@@ -46,7 +46,7 @@ const Schedule = () => {
     </Grid>
   ));
 
-  return (<Container className="Schedule">
+  return (<Container className="Schedule" id="schedule">
     <Grid
       container
       direction="column"

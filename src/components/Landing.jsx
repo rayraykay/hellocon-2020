@@ -84,10 +84,14 @@ const Landing = () => (
         alignItems="stretch"
       >
         <Grid
-          className="Landing__People"
           item
           xs={6}
           sm={6}
+          container
+          direction="column"
+          justify="flex-end"
+          alignItems="flex-start"
+          className="Landing__People"
         >
           <img src={require("../images/Ppl.png")} alt="landing speakers"/>
         </Grid>
