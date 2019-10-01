@@ -48,6 +48,7 @@ $border-color: #D0D0D0;
 .Schedule__Content {
   &--border {
     border-bottom: 1px solid $border-color;
+    padding: 10px 0;
   }
 
   * {
