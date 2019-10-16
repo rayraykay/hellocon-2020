@@ -24,7 +24,7 @@ const About = () => (
         </Typography>
         <br/>
         <Typography className="Text__Paragraph">
-          Due to a finite venue size, registration will be limited on a <strong>first come first serve basis</strong>. Those registering will be charged a $20 deposit that will be refunded upon check-in the day of.
+          Due to a finite venue size, registration will be limited on a <strong>first come first serve basis</strong>. Those registering will be charged a $10 deposit that will be refunded upon check-in the day of.
         </Typography>
       </Grid>
     </Grid>
