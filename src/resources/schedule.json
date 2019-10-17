@@ -4,35 +4,31 @@
     "time": "9:00am",
     "details": [
       {
-        "location": "MY 1st Floor Lobby"
+        "location": "BA Atrium"
       }
     ]
   },
   {
-    "event": "First presentations",
+    "event": "Opening keynote",
     "time": "10:00am",
     "details": [
       {
-        "location": "MY 490",
-        "speaker": "Linda Uwu"
-      },
-      {
-        "location": "MY 420",
-        "speaker": "Big Daddy Quin"
+        "location": "BA 1160",
+        "speaker": "RBC guy"
       }
     ]
   },
   {
-    "event": "Second presentations",
+    "event": "Lightning talks",
     "time": "10:45am",
     "details": [
       {
-        "location": "MY 490",
-        "speaker": "Nein Cat (Nein...?)"
+        "location": "BA 1130",
+        "speaker": "Google?"
       },
       {
-        "location": "MY 420",
-        "speaker": "SWOGMOOSTUR42069"
+        "location": "BA 1170",
+        "speaker": "Nebu??"
       }
     ]
   },
@@ -46,30 +42,26 @@
     ]
   },
   {
-    "event": "Third presentations",
+    "event": "Lightning talks",
     "time": "12:30pm",
     "details": [
       {
-        "location": "MY 490",
-        "speaker": "Linda Uwu"
+        "location": "BA 1130",
+        "speaker": "Munvo??"
       },
       {
-        "location": "MY 420",
-        "speaker": "Big Daddy Quin"
+        "location": "BA 1170",
+        "speaker": "???"
       }
     ]
   },
   {
-    "event": "Fourth presentations",
+    "event": "Closing keynote",
     "time": "1:45pm",
     "details": [
       {
-        "location": "MY 490",
-        "speaker": "Nein Cat (Nein...?)"
-      },
-      {
-        "location": "MY 420",
-        "speaker": "SWOGMOOSTUR42069"
+        "location": "BA1160",
+        "speaker": "Daisy Intelligence"
       }
     ]
   },
@@ -78,7 +70,7 @@
     "time": "3:10pm",
     "details": [
       {
-        "location": "MY 150 Lau Auditorium"
+        "location": "BA Atrium"
       }
     ]
   },
@@ -87,7 +79,7 @@
     "time": "3:30pm",
     "details": [
       {
-        "location": "MY 2nd Floor Lobby"
+        "location": "BA Atrium"
       }
     ]
   },

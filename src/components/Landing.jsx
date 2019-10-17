@@ -44,7 +44,7 @@ const Landing = () => (
           >
             <img src={require("../images/Location.svg")} alt="location" className="Landing__Icon"/>
             <Typography className="Landing__Text--Details">
-              Innis Town Hall
+              Bahen Centre for Information Technology
             </Typography>
           </Grid>
           <Grid
@@ -124,7 +124,7 @@ const Landing = () => (
           >
             <img src={require("../images/Location.svg")} alt="location" className="Landing__Icon"/>
             <Typography className="Landing__Text--Details">
-              Innis Town Hall
+              Bahen Centre for Information Technology
             </Typography>
           </Grid>
           <Grid
