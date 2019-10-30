@@ -50,7 +50,7 @@ const Contact = () => (
       </Grid>
       <Grid item md={6} xs={10} className="Contact__Text">
         <Typography className="Text__Paragraph">
-          If you have any inquiries regarding our club, please reach out to us!  
+          If you have any inquiries regarding our club, please reach out to us!
         </Typography>
         <br/>
         <Typography className="Text__Paragraph">

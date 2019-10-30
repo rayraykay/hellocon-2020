@@ -20,11 +20,11 @@ const About = () => (
       </Grid>
       <Grid className="About__Text" item xs={10}>
         <Typography className="Text__Paragraph">
-          Hello, Con! is an entirely <strong>free</strong>, day-long, TED-talk style <strong>technology conference</strong> open to students and industry professionals alike! This year's speaker line-up will feature tech gurus, CTOs and specialists hailing from IBM, RBC, and more. With a speaker networking session afterwards, Hello, Con! is an invaluable opportunity to connect with professionals, share exciting ideas and meet similarly driven individuals.
+          Hello, Con! is an entirely <strong>free</strong>, day-long, TED-talk style <strong>technology conference</strong> open to students and industry professionals alike! This year's speaker line-up will feature tech gurus, CTOs and specialists hailing from RBC, Daisy Intelligence, and more. With a speaker networking session afterwards, Hello, Con! is an invaluable opportunity to connect with professionals, share exciting ideas and meet similarly driven individuals.
         </Typography>
         <br/>
         <Typography className="Text__Paragraph">
-          Due to a finite venue size, registration will be limited on a <strong>first come first serve basis</strong>. Those registering will be charged a $10 deposit that will be refunded upon check-in the day of.
+          Due to a finite venue size, registration will be limited on a <strong>first come first serve basis</strong>. Those registering will be charged a $15 deposit that will be refunded upon check-in the day of.
         </Typography>
       </Grid>
     </Grid>
