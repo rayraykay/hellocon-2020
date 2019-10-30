@@ -12,8 +12,23 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import speakers from '../resources/speakers';
 import LindaPng from '../images/LindaFace.png';
+import GaryPng from '../images/Gary.png';
+import JamesPng from '../images/James.png';
+import BardiaPng from '../images/Bardia.png';
+import RajanPng from '../images/Rajan.png';
+import NebuPng from '../images/Nebu.png';
 
 import './Speakers.scss';
+
+const images = {
+  gary: GaryPng,
+  james: JamesPng,
+  bardia: BardiaPng,
+  rajan: RajanPng,
+  nebu: NebuPng,
+};
+
+const getImage = image => image in images ? images[image] : LindaPng;
 
 const largeSettings = {
   dots: false,
@@ -93,7 +108,7 @@ const Speakers = () => {
               {speakers.map((i, j) => (
                 <Container className="Speakers__Container" key={j}>
                   <Paper className={'Speakers__Speaker Speakers__Speaker--' + (j % 2 ? 'second' : 'first')}>
-                    <img className="Speakers__Image" src={LindaPng}/>
+                    <img className="Speakers__Image" src={getImage(i.image)}/>
                     <Container className="Speakers__Info">
                       <Typography className="Speakers__Text--SpeakerName">
                         {i.name}
@@ -131,11 +146,11 @@ const Speakers = () => {
           className="Speakers__Speakers"
         >
           <Container className="Speakers__Slider">
-            <Slider className="Speakers__Andrew" ref={smallSlider} {...smallSettings}>
+            <Slider ref={smallSlider} {...smallSettings}>
               {speakers.map((i, j) => (
                 <Container className="Speakers__Container" key={j}>
                   <Paper className="Speakers__Speaker Speakers__Speaker--small">
-                    <img className="Speakers__Image" src={LindaPng}/>
+                    <img className="Speakers__Image" src={getImage(i.image)}/>
                     <Container className="Speakers__Info">
                       <Typography className="Speakers__Text--SpeakerName">
                         {i.name}

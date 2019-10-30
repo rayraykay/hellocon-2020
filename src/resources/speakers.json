@@ -1,30 +1,44 @@
 [
   {
-    "name": "Linda Uwu",
-    "position": "Overlord at IEEE UofT",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "image": "unknown",
+    "name": "Rajan Bansi",
+    "position": "Lead Portfolio Manager at RBC InvestEase",
+    "description": "Rajan Bansi is Lead Portfolio Manager and Head of Investments and Advice at RBC InvestEase. He joined RBC in 2005 and in 2017 joined the dedicated group of professionals who helped build and launch RBC InvestEase across Canada in 2018. Prior to joining  RBC InvestEase, Rajan was the Head of U.S. and Canadian Fixed Income Strategies within the Portfolio Advisory Group at RBC Wealth Management. He also co-chaired the Global Portfolio Advisory Committee (GPAC), which made decisions with regards to the group’s recommended asset allocation. Rajan, who is also a CFA charterholder, obtained his MBA from Pepperdine University (Los Angeles) and an undergraduate degree in economics at the University of Toronto.",
+    "image": "rajan",
     "testValue": 1
   },
   {
-    "name": "Big Daddy Quin",
-    "position": "(2nd) Overlord at IEEE UofT",
-    "description": "Hello, fellow members of IEEE. I pose the following question for you. Why do we harbour this emotion called struggle in school? Why do we subject ourselves to the supposed torment of lost time that is a bachelor's degree? Why do we then indulge ourselves in destructive behaviour in an effort to mitigate the onslaught of our responsibilities? Is it a feeling of duty, that is sometimes overshadowed by an exploration of the unknown? Boredom is the trigger for lust. Curiosity and its subsequent satisfaction is the mistress to our alleged journey to greatness. But is it worth it all?",
-    "image": "unknown",
+    "name": "James Aziz",
+    "position": "Senior Consultant at Munvo",
+    "description": "With all of the excitement surrounding developments in AI and deep learning, one of the most pressing questions we are faced with is  how specifically are these advancements being used in industry? James Aziz describes how machine learning is being used in technology consulting to augment and ameliorate both the client experience, and push solutions further than they have ever gone before. Learn about the uses of machine learning, it’s efficacy, and its potential to open new areas of technological development in the consulting world.",
+    "image": "james",
     "testValue": 2
   },
   {
-    "name": "Li(sa + 1)",
-    "position": "(3rd) Overlord at IEEE UofT",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
-    "image": "unknown",
+    "name": "Gary Saarenvirta",
+    "position": "Founder and CEO of Daisy Intelligence",
+    "description": "TBD",
+    "image": "gary",
     "testValue": 3
   },
   {
-    "name": "Nhien Cat",
-    "position": "(Supreme) Overlord at IEEE UofT",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
-    "image": "unknown",
+    "name": "Bardia Bina",
+    "position": "Interaptix",
+    "description": "TBD",
+    "image": "bardia",
+    "testValue": 3
+  },
+  {
+    "name": "Nebu Mathai",
+    "position": "Executive Vice President, Product Engineering at Cognitive Systems",
+    "description": "TBD",
+    "image": "nebu",
     "testValue": 4
+  },
+  {
+    "name": "TBD",
+    "position": "TBD",
+    "description": "TBD",
+    "image": "unknown",
+    "testValue": 3
   }
 ]

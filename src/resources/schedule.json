@@ -9,65 +9,98 @@
     ]
   },
   {
-    "event": "Opening keynote",
-    "time": "10:00am",
+    "event": "Introduction",
+    "time": "9:45am",
     "details": [
       {
-        "location": "BA 1160",
-        "speaker": "RBC guy"
+        "location": "BA 1130"
       }
     ]
   },
   {
-    "event": "Lightning talks",
-    "time": "10:45am",
+    "event": "First keynote presentation",
+    "time": "10:00am",
     "details": [
       {
         "location": "BA 1130",
-        "speaker": "Google?"
-      },
+        "speaker": "RBC Investease"
+      }
+    ]
+  },
+  {
+    "event": "Second keynote ends + Q&A",
+    "time": "10:45am",
+    "details": [
+    ]
+  },
+  {
+    "event": "First lightning presentation",
+    "time": "11:00am",
+    "details": [
       {
         "location": "BA 1170",
-        "speaker": "Nebu??"
+        "speaker": "CSC"
+      },
+      {
+        "location": "BA 1180",
+        "speaker": "Interaptix"
       }
+    ]
+  },
+  {
+    "event": "First lightning presentation ends + Q&A",
+    "time": "11:20am",
+    "details": [
+    ]
+  },
+  {
+    "event": "Second lightning presentation",
+    "time": "11:30am",
+    "details": [
+      {
+        "location": "BA 1170",
+        "speaker": "Munvo"
+      },
+      {
+        "location": "BA 1180",
+        "speaker": "TBD"
+      }
+    ]
+  },
+  {
+    "event": "Second lightning presentation ends + Q&A",
+    "time": "11:50am",
+    "details": [
     ]
   },
   {
     "event": "Lunch",
-    "time": "11:30am",
+    "time": "12:00pm",
     "details": [
       {
-        "location": "MY 1st Floor Lobby"
+        "location": "BA Atrium"
       }
     ]
   },
   {
-    "event": "Lightning talks",
-    "time": "12:30pm",
+    "event": "Second keynote presentation",
+    "time": "1:00pm",
     "details": [
       {
         "location": "BA 1130",
-        "speaker": "Munvo??"
-      },
-      {
-        "location": "BA 1170",
-        "speaker": "???"
-      }
-    ]
-  },
-  {
-    "event": "Closing keynote",
-    "time": "1:45pm",
-    "details": [
-      {
-        "location": "BA1160",
         "speaker": "Daisy Intelligence"
       }
     ]
   },
   {
+    "event": "Second keynote ends + Q&A",
+    "time": "1:45pm",
+    "details": [
+    ]
+  },
+  {
     "event": "Mixer with industry professionals",
-    "time": "3:10pm",
+    "time": "2:00pm",
     "details": [
       {
         "location": "BA Atrium"
@@ -76,7 +109,7 @@
   },
   {
     "event": "Resume editing and headshot photoshoot event",
-    "time": "3:30pm",
+    "time": "2:15pm",
     "details": [
       {
         "location": "BA Atrium"
@@ -85,7 +118,7 @@
   },
   {
     "event": "Mixer comes to an end",
-    "time": "5:00pm",
+    "time": "4:30pm",
     "details": []
   }
 ]
