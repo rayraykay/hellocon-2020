@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import Hidden from '@material-ui/core/Hidden';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -9,6 +9,8 @@ import IconButton from "@material-ui/core/IconButton";
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuIcon from '@material-ui/icons/Menu';
+
+import eventLink from '../constants/eventLink';
 
 import './MenuBar.scss';
 
@@ -30,7 +32,7 @@ const MenuBar = () => {
           <Button href="#schedule" color="inherit" className="MenuBar__Schedule Text__Button">Schedule</Button>
           <Button href="#sponsors" color="inherit" className="MenuBar__Sponsors Text__Button">Sponsors</Button>
           <Button href="#contact-us" color="inherit" className="MenuBar__ContactUs Text__Button">Contact Us</Button>
-          <Button href="#register" color="inherit" className="MenuBar__Register Text__Button">Register</Button>
+          <Button onClick={eventLink} color="inherit" className="MenuBar__Register Text__Button">Register</Button>
         </Toolbar>
       </AppBar>
     </Hidden>
@@ -66,7 +68,7 @@ const MenuBar = () => {
               <Button href="#contact-us" onClick={handleClose} className="MenuBar__MenuButton Text__Button">Contact Us</Button>
             </MenuItem>
             <MenuItem className="MenuBar__MenuItem--Register">
-              <Button href="#register" className="MenuBar__Register Text__Button">Register</Button>
+              <Button onClick={eventLink} className="MenuBar__Register Text__Button">Register</Button>
             </MenuItem>
           </Menu>
         </Grid>

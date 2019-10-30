@@ -5,6 +5,8 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+import eventLink from "../constants/eventLink";
+
 import './Landing.scss';
 
 const Landing = () => (
@@ -61,7 +63,7 @@ const Landing = () => (
             </Typography>
           </Grid>
           <Grid item className="Landing__Register">
-            <Button href="#register" color="inherit" className="Landing__Button">
+            <Button onClick={eventLink} color="inherit" className="Landing__Button">
               <Typography className="Landing__Text--Button">
                 Register Now!
               </Typography>
@@ -141,7 +143,7 @@ const Landing = () => (
             </Typography>
           </Grid>
           <Grid item className="Landing__Register">
-            <Button href="#register" color="inherit" className="Landing__Button">
+            <Button onClick={eventLink} color="inherit" className="Landing__Button">
               <Typography className="Landing__Text--Button">
                 Register Now!
               </Typography>

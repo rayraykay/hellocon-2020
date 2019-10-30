@@ -1,0 +1,1 @@
+export default () => window.open('https://www.eventbrite.ca/e/hello-con-2019-software-technology-conference-tickets-79402758789', '_blank');
