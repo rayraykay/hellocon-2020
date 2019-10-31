@@ -27,6 +27,7 @@ const MenuBar = () => {
         <Toolbar className="MenuBar__Toolbar">
           {/*lol i hate dis but im too lazy to change right now*/}
           <Container className="MenuBar__Icon">
+            <></>
           </Container>
           <Button href="#speakers" color="inherit" className="MenuBar__Speakers Text__Button">Speakers</Button>
           <Button href="#schedule" color="inherit" className="MenuBar__Schedule Text__Button">Schedule</Button>

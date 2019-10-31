@@ -6,6 +6,7 @@ import About from './components/About';
 import Countdown from './components/Countdown';
 import Speakers from './components/Speakers';
 import Schedule from './components/Schedule';
+import Sponsors from './components/Sponsors';
 import Contact from './components/Contact';
 
 import './App.scss';
@@ -19,6 +20,7 @@ function App() {
       <Countdown />
       <Speakers />
       <Schedule />
+      <Sponsors />
       <Contact />
     </>
   );
