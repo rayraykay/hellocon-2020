@@ -37,7 +37,7 @@ const sponsorLogos = (images, mediumSize, largeSize) => (
 );
 
 const Sponsors = () => (
-  <Container className="Sponsors" maxWidth={false}>
+  <Container className="Sponsors" maxWidth={false} id="sponsors">
     <Grid
       container
       direction="column"
