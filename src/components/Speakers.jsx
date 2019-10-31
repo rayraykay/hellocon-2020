@@ -110,7 +110,7 @@ const Speakers = () => {
               {speakers.map((i, j) => (
                 <Container className="Speakers__Container" key={j}>
                   <Paper className={'Speakers__Speaker Speakers__Speaker--' + (j % 2 ? 'second' : 'first')}>
-                    <img className="Speakers__Image" src={getImage(i.image)}/>
+                    <img className="Speakers__Image" src={getImage(i.image)} alt={i.image}/>
                     <Container className="Speakers__Info">
                       <Typography className="Speakers__Text--SpeakerName">
                         {i.name}
@@ -152,7 +152,7 @@ const Speakers = () => {
               {speakers.map((i, j) => (
                 <Container className="Speakers__Container" key={j}>
                   <Paper className="Speakers__Speaker Speakers__Speaker--small">
-                    <img className="Speakers__Image" src={getImage(i.image)}/>
+                    <img className="Speakers__Image" src={getImage(i.image)} alt={i.image}/>
                     <Container className="Speakers__Info">
                       <Typography className="Speakers__Text--SpeakerName">
                         {i.name}

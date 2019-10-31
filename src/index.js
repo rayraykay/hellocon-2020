@@ -21,7 +21,6 @@ ReactDOM.render(
   <>
     <ThemeProvider theme={theme}>
       <StylesProvider injectFirst>
-        <CssBaseline/>
         <App/>
       </StylesProvider>
     </ThemeProvider>

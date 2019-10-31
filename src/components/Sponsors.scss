@@ -1,0 +1,28 @@
+@import "../constants/colors";
+@import "../constants/sizes";
+
+.Sponsors {
+  padding: 4vw 0 4vw 0;
+  background-color: $hellocon-grey;
+}
+
+.Sponsors__Title {
+  padding-bottom: 2vw;
+}
+
+.Sponsors__Icon {
+  text-align: center;
+  padding: 8px;
+
+  img {
+    height: 100px;
+
+    @media only screen and (max-width: $screen-900) {
+      height: 75px;
+    }
+
+    @media only screen and (max-width: $screen-450) {
+      height: 60px;
+    }
+  }
+}
