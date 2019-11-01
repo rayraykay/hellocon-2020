@@ -2,42 +2,42 @@
   {
     "name": "Rajan Bansi",
     "position": "Lead Portfolio Manager at RBC InvestEase",
-    "description": "Rajan Bansi is Lead Portfolio Manager and Head of Investments and Advice at RBC InvestEase. He joined RBC in 2005 and in 2017 joined the dedicated group of professionals who helped build and launch RBC InvestEase across Canada in 2018. Prior to joining  RBC InvestEase, Rajan was the Head of U.S. and Canadian Fixed Income Strategies within the Portfolio Advisory Group at RBC Wealth Management. He also co-chaired the Global Portfolio Advisory Committee (GPAC), which made decisions with regards to the group’s recommended asset allocation. Rajan, who is also a CFA charterholder, obtained his MBA from Pepperdine University (Los Angeles) and an undergraduate degree in economics at the University of Toronto.",
+    "description": "Front end design seems to get most of the attention when the role of technology in the investment management industry is discussed. Yet, consumers are benefiting from fewer pain points, enhanced insights and lower costs as a result of technological improvements. These improvements are on-going and seem destined to reshape the investment industry over the next decade.",
     "image": "rajan",
     "testValue": 1
   },
   {
     "name": "James Aziz",
     "position": "Senior Consultant at Munvo",
-    "description": "As a University of Toronto alumnus with a diverse background spanning healthcare, research, enterprise software, and marketing management, James has continued to unlock the remarkable opportunities that artificial intelligence (AI) has to offer. At Munvo, James leverages this passion to deliver tailored solutions for the financial and hospitality sectors and helps clients enrich their marketing operations with emerging technologies.",
+    "description": "With all of the excitement surrounding developments in AI and deep learning, one of the most pressing questions we are faced with is  how specifically are these advancements being used in industry? James Aziz describes how machine learning is being used in technology consulting to augment and ameliorate both the client experience, and push solutions further than they have ever gone before. Learn about the uses of machine learning, it’s efficacy, and its potential to open new areas of technological development in the consulting world.",
     "image": "james",
     "testValue": 2
   },
   {
     "name": "Gary Saarenvirta",
     "position": "Founder and CEO of Daisy Intelligence",
-    "description": "TBD",
+    "description": "Daisy Intelligence is one of the leading organizations when it comes to cutting edge AI solutions. From insurance to retail, Daisy Intelligence demonstrates how AI is being used to revolutionize how we do business, and what we can expect in future innovations. See how companies are restructuring through the power of machine learning to make smarter more profitable decisions.",
     "image": "gary",
     "testValue": 3
   },
   {
     "name": "Bardia Bina",
     "position": "Interaptix",
-    "description": "TBD",
+    "description": "Interaptix has been one of the forerunners in bringing the digital world into reality through their use of augmented realities. From augmenting the user experience, to merging machine learning with human-machine interaction, they are committed to enabling and developing the technologies of the future. See how AR has been used, and is being used to help build the world of the future and what that could mean for you.",
     "image": "bardia",
     "testValue": 3
   },
   {
     "name": "Nebu John Mathai",
     "position": "Executive Vice President, Product Engineering at CSC",
-    "description": "A graduate of Engineering Science (Computer; 9T9+PEY), Nebu has been a prolific designer of hardware and software IP for signal processing, communications, control and computation, throughout a career spanning nearly 20 years. A veteran of several leading edge startups as well as established technology companies, Nebu combines cross disciplinary engineering expertise with strong leadership and execution skills. Nebu obtained his PhD in electrical engineering at Texas A&M in 2008.",
+    "description": "Despite being decades old, the technologies behind radio signals has remained a cornerstone in technological development. Witness what could very likely be the next generation of technologies: the merging of radio frequency signals with artificial intelligence. From energy management to intelligent wifi systems, this paradigm shift in how radio frequency technology has done has countless exciting new applications and areas of exploration. Nebu Mathai, from Cognitive systems and the University of Toronto explains how his work is bringing this technology into the future.",
     "image": "nebu",
     "testValue": 4
   },
   {
     "name": "Mahan Salehi, Daniyar Akhmedjanov, and Kuba Wernerowski",
     "position": "prolego.ai",
-    "description": "TBD",
+    "description": "Predictive modeling has been used in countless field to help motivate and empower individuals making impactful decisions. Prolego brings this philosophy to the next level, by utilizing predictive modelling to improve the user experience, optimize general workplace experience, from medical testing to underwriting, while simultaneously tailoring their models to whatever needs their clients may have.",
     "image": "daniyar",
     "testValue": 3
   }
