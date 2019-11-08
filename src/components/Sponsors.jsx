@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Typography from "@material-ui/core/Typography";
+import Link from '@material-ui/core/Link';
 
 import DaisyLogo from '../images/sponsors/Daisy Intelligence.60d846ea.svg';
 import RbcLogo from '../images/sponsors/RBC.svg';
@@ -14,11 +15,19 @@ import IEEELogo from '../images/sponsors/IEEELogo.jpg';
 
 import './Sponsors.scss';
 
-const topLogos = [RbcLogo, DaisyLogo];
-const middleLogos = [MunvoLogo, InteraptixLogo, ProlegoLogo, CognitiveLogo];
-const bottomLogos = [UofTLogo, IEEELogo];
+const sponsorLink = link => () => window.open(link, '_blank');
 
-const sponsorLogos = (images, mediumSize, largeSize) => (
+// Needed a quick and dirty solution for links, unfortunate that this is it
+const topLogos = [RbcLogo, DaisyLogo];
+const topLogosLinks = ['https://www.rbcinvestease.com/', 'https://www.daisyintelligence.com/'];
+
+const middleLogos = [MunvoLogo, InteraptixLogo, ProlegoLogo, CognitiveLogo];
+const middleLogosLinks = ['https://munvo.com/', 'http://interaptix.com/', 'https://prolego.ai/', 'https://www.cognitivesystems.com/'];
+
+const bottomLogos = [UofTLogo, IEEELogo];
+const bottomLogosLinks = ['https://utoronto.ca/', 'https://ieee.org/'];
+
+const sponsorLogos = (images, links, mediumSize, largeSize) => (
   <Grid
     item
     container
@@ -26,11 +35,11 @@ const sponsorLogos = (images, mediumSize, largeSize) => (
     alignItems="center"
     justify="center"
   >
-    {images.map(image => (
+    {images.map((image, i) => (
       <Grid item className="Sponsors__Icon" xs={12} sm={4} md={mediumSize} lg={largeSize} key={image}>
-        <Container maxWidth={false}>
+        <Link href='#sponsors' onClick={sponsorLink(links[i])}>
           <img src={image} alt={image} />
-        </Container>
+        </Link>
       </Grid>
     ))}
   </Grid>
@@ -55,9 +64,9 @@ const Sponsors = () => (
         alignItems="center"
         justify="center"
       >
-        {sponsorLogos(topLogos, 6, 6)}
-        {sponsorLogos(middleLogos, 4, 4)}
-        {sponsorLogos(bottomLogos, 6, 6)}
+        {sponsorLogos(topLogos, topLogosLinks, 6, 6)}
+        {sponsorLogos(middleLogos, middleLogosLinks, 4, 4)}
+        {sponsorLogos(bottomLogos, bottomLogosLinks, 6, 6)}
       </Grid>
     </Grid>
 
