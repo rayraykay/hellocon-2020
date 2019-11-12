@@ -16,7 +16,7 @@ import GaryPng from '../images/Gary.png';
 import JamesPng from '../images/James.png';
 import BardiaPng from '../images/Bardia.png';
 import RajanPng from '../images/Rajan.png';
-import NebuPng from '../images/Nebu.png';
+import NebuPng from '../images/Nebu.jpg';
 import DaniyarPng from '../images/Daniyar.png';
 import SinaPng from '../images/Sina.jpg';
 
