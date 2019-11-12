@@ -18,6 +18,7 @@ import BardiaPng from '../images/Bardia.png';
 import RajanPng from '../images/Rajan.png';
 import NebuPng from '../images/Nebu.png';
 import DaniyarPng from '../images/Daniyar.png';
+import SinaPng from '../images/Sina.jpg';
 
 import './Speakers.scss';
 
@@ -28,6 +29,7 @@ const images = {
   rajan: RajanPng,
   nebu: NebuPng,
   daniyar: DaniyarPng,
+  sina: SinaPng,
 };
 
 const getImage = image => image in images ? images[image] : LindaPng;

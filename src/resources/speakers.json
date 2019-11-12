@@ -14,10 +14,10 @@
     "testValue": 2
   },
   {
-    "name": "Gary Saarenvirta",
-    "position": "Founder and CEO of Daisy Intelligence",
-    "description": "Daisy Intelligence is one of the leading organizations when it comes to cutting edge AI solutions. From insurance to retail, Daisy Intelligence demonstrates how AI is being used to revolutionize how we do business, and what we can expect in future innovations. See how companies are restructuring through the power of machine learning to make smarter more profitable decisions.",
-    "image": "gary",
+    "name": "Sina Meraji",
+    "position": "Director, Machine learning & Software Development of Daisy Intelligence",
+    "description": "Sina is Daisy’s Director, Machine Learning & Software Development in Parallel Computing. He leads the research and development team focusing on four main areas of big data and analytics, artificial intelligence/machine learning, parallel processing, UI/Web development.",
+    "image": "sina",
     "testValue": 3
   },
   {
