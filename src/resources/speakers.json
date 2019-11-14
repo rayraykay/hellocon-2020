@@ -23,14 +23,14 @@
   {
     "name": "Bardia Bina",
     "position": "Interaptix",
-    "description": "Bardia Bina is the founder and CEO of Interaptix Inc., a leading enterprise Augmented Reality technology company headquartered in Toronto.  With over 15 years of experience as an Augmented Reality expert, Bardia has successfully developed AR technology and solutions for the aerospace, medical, tele-robotics, and manufacturing industries.  Bardia studied Engineering Science at University of Toronto and obtained a Master’s degree in Flight Systems and Control and a PhD in Industrial Engineering with a specialization in Augmented Reality and Human Factors.",
+    "description": "Bardia Bina is the founder and CEO of Interaptix Inc., a leading enterprise Augmented Reality technology company headquartered in Toronto.  With over 15 years of experience as an Augmented Reality expert, Bardia has successfully developed AR technology and solutions for the aerospace, medical, tele-robotics, and manufacturing industries. Bardia studied Engineering Science at University of Toronto and obtained a Master’s degree in Flight Systems and Control and a PhD in Industrial Engineering with a specialization in Augmented Reality and Human Factors.",
     "image": "bardia",
     "testValue": 3
   },
   {
     "name": "Nebu John Mathai",
     "position": "Executive Vice President, Product Engineering at CSC",
-    "description": "The world abounds in novel products targeting the internet of things (IoT). Fundamentally, these products are types of sensor or actuator networks, consisting of edge devices where the sensing and actuation are located, a cloud backend, and compute facilities located somewhere in the network. Although placing compute in the cloud is commonly done for flexibility and ease of development, there are significant advantages that demand edge computation---i.e., locating compute at the sensor or actuator devices. This talk by Nebu J. Mathai will cover an advanced example of edge computation for an aggressive (in terms of high-performance compute bandwidth) sensor network application space. The technology---a supercomputer-on-chip for the rapid, real-time, multi-stream extraction of intelligence from RF and microwave signals---will be presented with particular focus on processor architecture.",
+    "description": "The world abounds in novel products targeting the internet of things (IoT). Fundamentally, these products are networks, consisting of edge devices (sensing and actuation), a cloud backend (data flow), and compute facilities located somewhere in the network. Although placing compute in the cloud is commonly done for flexibility and ease of development, there are significant advantages to edge computation. This talk by Nebu J. Mathai will cover an advanced example of edge computation for a high-performance and high compute bandwidth sensor network. The technology---a supercomputer-on-chip for the rapid, real-time, multi-stream inferencing from RF and microwave signals---will be presented with particular focus on processor architecture.",
     "image": "nebu",
     "testValue": 4
   },
